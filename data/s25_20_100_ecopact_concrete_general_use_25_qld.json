@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Holcim (Australia) Pty Ltd",
+  "epdProgramOperator": "EPD International AB",
+  "sourceEpdFilename": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+  "epdRegistrationNumber": "EPD-IES-0029695:001",
+  "pdfPageReference": 14,
+  "productName": "S25/20/100 Ecopact Concrete - General use",
+  "compressiveStrengthMPa": 25,
+  "location": {
+    "state": "QLD",
+    "plantOrRegion": "Brisbane"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 146,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": 2.58,
+      "declared": true,
+      "isRange": false
+    },
+    "C1_C4": {
+      "value": 15.232,
+      "declared": true,
+      "isRange": false
+    },
+    "D": {
+      "value": -18.5,
+      "declared": true,
+      "isRange": false
+    }
+  },
+  "possibleDuplicate": false
+}

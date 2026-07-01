@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Tandy Concrete",
+  "epdProgramOperator": "EPD Hub",
+  "sourceEpdFilename": "EPD_HUB-5394_2026-06-27_en.pdf",
+  "epdRegistrationNumber": "HUB-5394",
+  "pdfPageReference": 1,
+  "productName": "AN3220100Enhanced",
+  "compressiveStrengthMPa": 32,
+  "location": {
+    "state": "QLD",
+    "plantOrRegion": "Mackay"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 232,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": 2.79,
+      "declared": true,
+      "isRange": false
+    },
+    "C1_C4": {
+      "value": 16.36,
+      "declared": true,
+      "isRange": false
+    },
+    "D": {
+      "value": -13.2,
+      "declared": true,
+      "isRange": false
+    }
+  },
+  "possibleDuplicate": false
+}

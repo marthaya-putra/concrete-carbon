@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Entire Concrete",
+  "epdProgramOperator": "EPD Hub",
+  "sourceEpdFilename": "EPD_HUB-5991_2026-06-27_en.pdf",
+  "epdRegistrationNumber": "HUB-5991",
+  "pdfPageReference": 1,
+  "productName": "N40/20 Xencrete",
+  "compressiveStrengthMPa": 40,
+  "location": {
+    "state": "NSW",
+    "plantOrRegion": "Hunter Valley"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 273,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": 2.96,
+      "declared": true,
+      "isRange": false
+    },
+    "C1_C4": {
+      "value": 15.83,
+      "declared": true,
+      "isRange": false
+    },
+    "D": {
+      "value": -11.9,
+      "declared": true,
+      "isRange": false
+    }
+  },
+  "possibleDuplicate": false
+}

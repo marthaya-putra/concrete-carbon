@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Piave Premix Concrete Pty Ltd",
+  "epdProgramOperator": "The International EPD® System",
+  "sourceEpdFilename": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
+  "epdRegistrationNumber": "EPD-IES-23043",
+  "pdfPageReference": 1,
+  "productName": "Premix Concrete – S32MPa GreenCrete 70",
+  "compressiveStrengthMPa": 32,
+  "location": {
+    "state": "VIC",
+    "plantOrRegion": "Port Melbourne"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 134,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    },
+    "C1_C4": {
+      "value": 20.73,
+      "declared": true,
+      "isRange": false
+    },
+    "D": {
+      "value": -1.61,
+      "declared": true,
+      "isRange": false
+    }
+  },
+  "possibleDuplicate": false
+}

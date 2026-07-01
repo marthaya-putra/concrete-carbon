@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Boral Limited",
+  "epdProgramOperator": "EPD Hub",
+  "sourceEpdFilename": "EPD_HUB-5555_2026-06-27_en.pdf",
+  "epdRegistrationNumber": "HUB-5555",
+  "pdfPageReference": 4,
+  "productName": "40MPa 20mm Enviro 50% SCM 100SL Conc",
+  "compressiveStrengthMPa": 40,
+  "location": {
+    "state": "VIC",
+    "plantOrRegion": "Melbourne"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 220,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    },
+    "C1_C4": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    },
+    "D": {
+      "value": -12.8,
+      "declared": true,
+      "isRange": false
+    }
+  },
+  "possibleDuplicate": false
+}

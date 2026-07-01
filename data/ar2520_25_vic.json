@@ -1,0 +1,33 @@
+{
+  "manufacturer": "Aurora Construction Materials Epping Pty. Ltd.",
+  "epdProgramOperator": "EPD International AB",
+  "sourceEpdFilename": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+  "epdRegistrationNumber": "EPD-IES-0021754:001",
+  "pdfPageReference": 5,
+  "productName": "AR2520",
+  "compressiveStrengthMPa": 25,
+  "location": {
+    "state": "VIC",
+    "plantOrRegion": "Rockbank"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 139,
+      "declared": true
+    },
+    "A4": {
+      "value": null,
+      "declared": false
+    },
+    "C1_C4": {
+      "value": 21.43,
+      "declared": true
+    },
+    "D": {
+      "value": -9.8,
+      "declared": true
+    }
+  },
+  "possibleDuplicate": false
+}

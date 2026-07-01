@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Holcim (Australia) Pty Ltd",
+  "epdProgramOperator": "EPD International AB",
+  "sourceEpdFilename": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+  "epdRegistrationNumber": "EPD-IES-0014327:002",
+  "pdfPageReference": 14,
+  "productName": "S25 MORETON GEOSTONE - Decorative",
+  "compressiveStrengthMPa": 25,
+  "location": {
+    "state": "QLD",
+    "plantOrRegion": "SEQ"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 237,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": 2.63,
+      "declared": true,
+      "isRange": false
+    },
+    "C1_C4": {
+      "value": 11.412,
+      "declared": true,
+      "isRange": false
+    },
+    "D": {
+      "value": -18.8,
+      "declared": true,
+      "isRange": false
+    }
+  },
+  "possibleDuplicate": false
+}

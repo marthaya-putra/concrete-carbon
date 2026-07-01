@@ -1,0 +1,33 @@
+{
+  "manufacturer": "Entire Concrete",
+  "epdProgramOperator": "EPD Hub",
+  "sourceEpdFilename": "EPD_HUB-5749_2026-06-27_en.pdf",
+  "epdRegistrationNumber": "HUB-5749",
+  "pdfPageReference": 2,
+  "productName": "N25/10/100 Xencrete",
+  "compressiveStrengthMPa": 25,
+  "location": {
+    "state": "NSW",
+    "plantOrRegion": "Hunter Valley, NSW, Australia"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 208,
+      "declared": true
+    },
+    "A4": {
+      "value": 2.93,
+      "declared": true
+    },
+    "C1_C4": {
+      "value": 15.61,
+      "declared": true
+    },
+    "D": {
+      "value": -11.8,
+      "declared": true
+    }
+  },
+  "possibleDuplicate": false
+}

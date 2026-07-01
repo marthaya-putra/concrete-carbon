@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Hymix Australia Pty Ltd",
+  "epdProgramOperator": "EPD International AB",
+  "sourceEpdFilename": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+  "epdRegistrationNumber": "EPD-IES-0014968:001",
+  "pdfPageReference": 21,
+  "productName": "HyLo-40 Normal-Class 40MPa",
+  "compressiveStrengthMPa": 40,
+  "location": {
+    "state": "QLD",
+    "plantOrRegion": "Gold Coast"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 257,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    },
+    "C1_C4": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    },
+    "D": {
+      "value": -26,
+      "declared": true,
+      "isRange": false
+    }
+  },
+  "possibleDuplicate": false
+}

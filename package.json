@@ -1,0 +1,24 @@
+{
+  "name": "concrete-carbon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "tsx scripts/extract.ts",
+    "postprocess": "tsx scripts/postprocess.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^4.0.3",
+    "@ai-sdk/mistral": "^4.0.2",
+    "ai": "^7.0.9",
+    "dotenv": "^17.4.2",
+    "glob": "^13.0.6",
+
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}

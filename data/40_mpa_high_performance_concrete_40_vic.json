@@ -1,0 +1,34 @@
+{
+  "manufacturer": "Boral Limited",
+  "epdProgramOperator": "EPD Hub",
+  "sourceEpdFilename": "EPD_HUB-5882_2026-06-27_en.pdf",
+  "epdRegistrationNumber": "HUB-5882",
+  "pdfPageReference": 4,
+  "productName": "40 MPa High Performance Concrete",
+  "compressiveStrengthMPa": 40,
+  "location": {
+    "state": "VIC",
+    "plantOrRegion": "Melbourne"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 297,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": null,
+      "declared": false
+    },
+    "C1_C4": {
+      "value": null,
+      "declared": false
+    },
+    "D": {
+      "value": null,
+      "declared": false
+    }
+  },
+  "possibleDuplicate": false
+}

@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Hymix Australia Pty Ltd",
+  "epdProgramOperator": "EPD International AB",
+  "sourceEpdFilename": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+  "epdRegistrationNumber": "EPD-IES-0014995:001",
+  "pdfPageReference": 22,
+  "productName": "TMR MRTS70 Shotcrete - 40 MPa (Exp 82)",
+  "compressiveStrengthMPa": 40,
+  "location": {
+    "state": "QLD",
+    "plantOrRegion": "Gold Coast"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 326,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    },
+    "C1_C4": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    },
+    "D": {
+      "value": -24,
+      "declared": true,
+      "isRange": false
+    }
+  },
+  "possibleDuplicate": false
+}

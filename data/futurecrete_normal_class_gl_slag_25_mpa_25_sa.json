@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Adbri Limited",
+  "epdProgramOperator": "EPD International AB",
+  "sourceEpdFilename": "epd-ies-0021165-sn252f100.pdf",
+  "epdRegistrationNumber": "EPD-IES-0021165",
+  "pdfPageReference": 29,
+  "productName": "Futurecrete Normal Class GL:Slag 25 MPa",
+  "compressiveStrengthMPa": 25,
+  "location": {
+    "state": "SA",
+    "plantOrRegion": "South Australia"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 143.83,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": 9.64,
+      "declared": true,
+      "isRange": false
+    },
+    "C1_C4": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    },
+    "D": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    }
+  },
+  "possibleDuplicate": false
+}

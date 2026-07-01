@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Heidelberg Materials Australia Pty Ltd",
+  "epdProgramOperator": "EPD International AB",
+  "sourceEpdFilename": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+  "epdRegistrationNumber": "EPD-IES-0014783:001",
+  "pdfPageReference": 11,
+  "productName": "GE252WA06",
+  "compressiveStrengthMPa": 25,
+  "location": {
+    "state": "QLD",
+    "plantOrRegion": "BRISBANE"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 127,
+      "declared": true,
+      "isRange": false
+    },
+    "A4": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    },
+    "C1_C4": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    },
+    "D": {
+      "value": null,
+      "declared": false,
+      "isRange": false
+    }
+  },
+  "possibleDuplicate": false
+}

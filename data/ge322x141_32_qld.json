@@ -1,0 +1,33 @@
+{
+  "manufacturer": "Hanson Construction Materials Pty Ltd",
+  "epdProgramOperator": "EPD Australasia",
+  "sourceEpdFilename": "EPD-IES-0014769_P252080.pdf",
+  "epdRegistrationNumber": "EPD-IES-0014765:001",
+  "pdfPageReference": 18,
+  "productName": "GE322X141",
+  "compressiveStrengthMPa": 32,
+  "location": {
+    "state": "QLD",
+    "plantOrRegion": "Brisbane"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 246,
+      "declared": true
+    },
+    "A4": {
+      "value": 0,
+      "declared": false
+    },
+    "C1_C4": {
+      "value": 0,
+      "declared": false
+    },
+    "D": {
+      "value": null,
+      "declared": false
+    }
+  },
+  "possibleDuplicate": false
+}
