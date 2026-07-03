@@ -1,0 +1,33 @@
+{
+  "manufacturer": "HALLETT GROUP",
+  "epdProgramOperator": "The International EPD® System",
+  "sourceEpdFilename": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+  "epdRegistrationNumber": "EPD-IES-0009353:003",
+  "pdfPageReference": 19,
+  "productName": "N2010P 120",
+  "compressiveStrengthMPa": null,
+  "location": {
+    "state": "SA",
+    "plantOrRegion": "Mile End"
+  },
+  "functionalUnit": "1 m³",
+  "carbonFootprint": {
+    "A1_A3": {
+      "value": 230,
+      "declared": true
+    },
+    "A4": {
+      "value": null,
+      "declared": false
+    },
+    "C1_C4": {
+      "value": null,
+      "declared": false
+    },
+    "D": {
+      "value": null,
+      "declared": false
+    }
+  },
+  "possibleDuplicate": false
+}

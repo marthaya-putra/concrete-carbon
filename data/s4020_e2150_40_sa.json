@@ -3,7 +3,7 @@
   "epdProgramOperator": "The International EPD® System",
   "sourceEpdFilename": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
   "epdRegistrationNumber": "EPD-IES-0009353:003",
-  "pdfPageReference": 25,
+  "pdfPageReference": 20,
   "productName": "S4020 E2150",
   "compressiveStrengthMPa": 40,
   "location": {
@@ -13,7 +13,7 @@
   "functionalUnit": "1 m³",
   "carbonFootprint": {
     "A1_A3": {
-      "value": 0.00681,
+      "value": 226,
       "declared": true
     },
     "A4": {

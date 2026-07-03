@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "extract": "tsx scripts/extract.ts",
-    "postprocess": "tsx scripts/postprocess.ts"
+    "postprocess": "tsx scripts/postprocess.ts",
+    "analyze": "tsx scripts/analyze-efficiency.ts"
   },
   "dependencies": {
     "@ai-sdk/google": "^4.0.3",

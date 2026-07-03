@@ -30,7 +30,26 @@ Rules:
   - In project-specific EPDs with summary tables, registration numbers are often in a side-by-side column layout: product names on the LEFT, registration numbers on the RIGHT column. Scan BOTH columns carefully.
   - Each product variant typically has its OWN unique registration number (e.g., BN402BO31 → EPD-IES-0014761:001). Do NOT assign the same number to all products.
   - For EPD Hub documents, the identifier typically appears on the first page as "EPD HUB, HUB-XXXX" — use that format.
-  - If you cannot find a per-product registration number in the data tables, use the document-level registration number from the cover page as a fallback.`;
+  - If you cannot find a per-product registration number in the data tables, use the document-level registration number from the cover page as a fallback.
+
+PRODUCT NAMES — use the exact commercial mix code from the document, NEVER a generic term.
+- BAD: "Ready Mix Concrete", "Concrete N40", "20 MPa Concrete"
+- GOOD: the code that appears in the "MIX NAME" / "Mix" / "Product" row of the data tables.
+- Example (Hallett-style EPDs): products are labelled with a strength series code plus a binder suffix — "S1020 PLC1", "S4010 E110", "S5010 DW500D", "S3220 PLC2XYP", "N4020P Ref". Concatenate the code in the left header cell with the binder sub-code beneath it. Do NOT collapse them to "Ready Mix Concrete".
+- If the document only contains generic names (no mix codes), then and only then use the generic name as-is.
+
+CARBON VALUE ROW SELECTION — only the GWP row is carbon. This is the most common extraction error.
+- Carbon footprint (kg CO₂-eq) comes ONLY from the row labelled "GWP", "GWP-GHG", "GWP-tot", "Global Warming Potential", or "Climate change". Typical concrete values are 100–600 kg CO₂-eq/m³.
+- DO NOT extract values from adjacent rows in the same table, even if they look numeric. Other rows in the same table are different indicators and have wildly different magnitudes:
+  - "PM" / "Particulate matter" / "Disease incidences" → values look like 7.09E-06 (these are HEALTH impacts, NOT carbon)
+  - "IRP" (ionizing radiation), "ETP-fw" (ecotoxicity), "HTPc/HTPnc" (human toxicity), "SQP" (soil quality) → all different indicators, all NOT carbon
+- Sanity check before returning: if a carbon value is < 10 or > 1000, you almost certainly picked the wrong row. Re-scan for the GWP row.
+
+LIFECYCLE STAGE OBJECT SHAPE — every stage MUST be an object, never null.
+- Correct: { "value": 297, "declared": true }
+- Correct: { "value": null, "declared": false }
+- WRONG: null  (do not return bare null for a stage)
+- WRONG: { "value": 297 }  (declared is required)`;
 
 export async function extractProductsWithRetry(
   pdfPath: string,

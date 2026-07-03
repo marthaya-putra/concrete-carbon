@@ -42,11 +42,11 @@ I used the **Vercel AI SDK** because it handles JSON schema generation declarati
 
 ## Accuracy and Validation
 
-To ensure data integrity, I manually inspected the outputs, focusing closely on PDFs containing multiple products. Given the small sample size and project scope, building a complex automated LLM-as-a-judge evaluation framework was not justified.
+To ensure data integrity, I manually inspected the outputs, focusing closely on PDFs containing multiple products and use different LLM to verify the extraction manually. Given the small sample size and project scope, building a complex automated LLM-as-a-judge evaluation framework was not justified.
 
 ### Error Handling & Traceability
 
-The project brief emphasized that traceability is critical. To mitigate LLM hallucinations—such as missing or incorrect EPD registration numbers—I implemented a **text-search fallback** whenever the LLM fails to extract the registration number. The output also preserves the source PDF reference and page numbers for easy manual verification.
+The project brief emphasized that traceability is critical. To mitigate LLM hallucinations such as missing or incorrect carbon strength and EPD registration numbers, I implemented a **text-search fallback** whenever the LLM fails to extract the registration number as this is the most important part. The output also preserves the source PDF reference and page numbers for easy manual verification.
 
 ---
 
